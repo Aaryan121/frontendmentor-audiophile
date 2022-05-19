@@ -11,9 +11,15 @@ function Productinfo() {
   return (
     <div className={Style.pi}>
       <div className={Style.products}>
-        <img src={Headphone} alt="" />
-        <img src={Speaker} alt="" />
-        <img src={Earphone} alt="" />
+        <div>
+          <img className={Style.flexible} src={Headphone} alt="" />
+        </div>
+        <div>
+          <img className={Style.flexible} src={Speaker} alt="" />
+        </div>
+        <div>
+          <img className={Style.flexible} src={Earphone} alt="" />
+        </div>
       </div>
       <div className={Style.speaker}>
         <div className={Style.introbox}>
