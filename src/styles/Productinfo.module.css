@@ -43,7 +43,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 5em 0;
+  margin-top: 5em;
 }
 
 .text2 {
@@ -52,4 +52,31 @@
   flex-direction: column;
   height: 260px;
   justify-content: space-between;
+}
+.Earphone {
+  border-radius: 15px;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.best {
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.textbox3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 680px;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 85%;
+  margin: 0 auto;
+
+  margin-top: 5em;
 }
