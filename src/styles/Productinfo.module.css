@@ -1,0 +1,55 @@
+.pi {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.products {
+  padding: 7em 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.speaker {
+  background-image: url("../Assets/img/Speakerhero.png");
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.introbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 13em 0;
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 300px;
+  padding-right: 10em;
+  justify-content: space-between;
+}
+
+.blank {
+  width: 45%;
+  height: 100%;
+}
+
+.speakerHero {
+  background-image: url("../Assets/img/speakerheroimg.png");
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5em 0;
+}
+
+.text2 {
+  padding: 5em 5em;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  justify-content: space-between;
+}

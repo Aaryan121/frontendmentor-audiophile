@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 85%;
+  margin: 0 auto;
+}
+.lightText {
+  font-family: "Cambay";
+  letter-spacing: 0.28em;
+  color: #636363;
+}
+.heading {
+  font-family: "Allerta";
+  font-size: 64px;
+  color: white;
+}
+
+.introText {
+  font-family: "Allerta";
+  font-style: normal;
+  font-size: 20px;
+  color: #868686;
+}
+
+.btn {
+  background: #d97e4a;
+  border: 1px solid #6b6b6b;
+  border-radius: 6px;
+  font-family: "Cambay", sans-serif;
+  font-weight: bold;
+  color: #c9c9c9;
+  width: 209px;
+  height: 55px;
+}
+
+.btn-secondary {
+  background: #000000;
+  border: 1px solid #6b6b6b;
+  font-family: "Cambay", sans-serif;
+  font-weight: bold;
+  color: #c9c9c9;
+  width: 209px;
+  height: 55px;
+}
+
+.bgimg {
+  background-image: url("../Assets/img/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.margin {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+}
