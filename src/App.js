@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Productinfo from "./components/Productinfo";
+import ProductInfo from "./components/Productinfo";
 import Footer from "./components/Footer";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Productinfo />
+      <ProductInfo />
       <Footer />
     </div>
   );
